@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.frontpic {
+  background: black;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.btn-warning{
+  margin-left: 18rem;
+  margin-right: 1rem;
+}
+/*search button - start*/
+.search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 100px;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.2s linear;
+}
+
+.searchbar{
+  float: right;
+  margin-right: 1rem;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+}
+
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 300px;
+  caret-color:red;
+  transition: width 0.2s linear;
+}
+
+.searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+}
+
+/*search button - ending*/
+
+/*title - additional css settings - start*/
+.fa-shopping-cart{
+  margin-top: 1.5rem;
+  float: right;
+  color: white;
+}
+
+.shopping-cart{
+  font-family: 'Source Sans Pro', sans-serif;
+  float: right;
+  color: white;
+  margin-left: 10px;
+}
+
+.shopping-cart:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: darkorange;
+  height: 50px;
+}
+
+.navbar li a{
+  margin-top: 0.5rem;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  left: 50% !important;
+}
+
+.navigationOptions li a{
+  margin-right:5rem;
+  padding-bottom: 1rem;
+  font-size: 120%;
+}
+
+.dropdown-menu .dropdown-item:hover{
+  padding: 1rem;
+  background: black !important;
+  color: orange;
+  transition: all 0.2s ease-in;
+}
+
+.content{
+  background: white;
+}
+/*title - additional css settings - end*/
+
+/*musicians - start*/
+.musicians{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.musicians div{
+  width: 500px;
+  height: 280px;
+  overflow: hidden;
+  background: black;
+  margin: 0.5rem;
+  position: relative;
+}
+
+.musicians img{
+  width: 500px;
+  transition: all 0.5s ease-in;
+}
+
+.musicians img:hover{
+  opacity: 0.3;
+}
+
+.musicians img:hover .musician1{
+  height: 300px;
+}
+
+.musicians .text1{
+  background: rgb(255,127,80,0.8);
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  padding: 2rem;
+  margin-top: -30rem;
+  margin-left: 4.3rem;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.musician1:hover .text1{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-in;
+}
+
+.musicians .text2{
+  background: rgb(255,127,80,0.8);
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  padding: 2rem;
+  margin-top: -30rem;
+  margin-left: 4.3rem;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.musician2:hover .text2{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-in;
+}
+
+.musicians .text3{
+  background: rgb(255,127,80,0.8);
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  padding: 2rem;
+  margin-top: -15rem;
+  margin-left: 4.3rem;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.musician3:hover .text3{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-in;
+}
+
+.musicians .text4{
+  background: rgb(255,127,80,0.8);
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  padding: 2rem;
+  margin-top: -32rem;
+  margin-left: 4.3rem;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.musician4:hover .text4{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-in;
+}
+
+.musicians .text5{
+  background: rgb(255,127,80,0.8);
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  padding: 2rem;
+  margin-top: -17rem;
+  margin-left: 4.3rem;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.musician5:hover .text5{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-in;
+}
+/*musicians - end*/
+
+/*footer*/
+.footer{
+  background: 	#333333;
+  height: 80vh;
+}
+
+.footer-content{
+  padding-top: 5rem;
+}
+
+.footer-content li{
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  color: gray;
+}
+
+.footer-content li a {
+  color: gray !important;
+}
+
+.footer-content h5{
+  color: #ff6600;
+}
+
+.text .newsletter{
+  width: 150px;
+  height: 40px;
+  background: none;
+  border:1px solid white;
+  padding-left: 0.5rem;
+  color: orange;
+}
+
+input .newsletter{
+  color: orange;
+}
+
+.text .btn{
+  height: 40px;
+  padding: 0 1rem 0 1rem;
+  margin-top: -6px;
+  margin-left: -5px;
+  border-radius: 0;
+  border: 1px solid white;
+  font-size: 80%;
+}
+
+.text .btn:hover{
+  background-color: orange;
+  border: 1px solid white;
+}
+
+.footer-content .news{
+  width: 230px;
+  height: 40px;
+}
+
+.footer .my-4{
+  border: 1px solid #696969;
+  background: #696969;
+}
+
+.social-media{
+  margin-top: 3rem;
+}
+
+.fab{
+  font-size: 250%;
+  padding-right: 2rem;
+}
+
+.fa-facebook-square:hover{
+  color: #3b5998;
+}
+
+.fa-twitter:hover{
+  color:#00acee;
+}
+
+.fa-instagram:hover{
+  color: #f42e78;
+}
+
+.fa-youtube:hover{
+  color: #c4302b;
+}
+
+.footest p{
+  color: white;
+}
+
+.footest a{
+  color: white;
+}
+/*footer - ending*/
+
+/*mobile responsive - start*/
+@media(max-width: 1200px){
+  .btn-warning{
+    margin-left: 5rem;
+  }
+
+  .footer{
+    height: 43vh;
+  }
+}
+/*mobile responsive - end*/
